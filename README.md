@@ -5,4 +5,4 @@ This is an example about how to build a small SPA with AngularJS that consume th
 
 I will be updating this repository with new features frequently.
 
-Also, you can seee the demo at http://demogithubseracher.azurewebsites.net
+Also, you can see the demo at http://demogithubseracher.azurewebsites.net
