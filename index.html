@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="githubSearcher">
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="content/bootstrap-superhero.min.css">
+    <link rel="stylesheet" type="text/css" href="content/site.css">
+
+    <script src="scripts/libs/angular.min.js"></script>
+    <script src="scripts/libs/angular-route.min.js"></script>
+    <script src="scripts/libs/angular-animate.min.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/Controllers/githubController.js"></script>
+    <script src="scripts/Controllers/githubUserController.js"></script>
+    <script src="scripts/Services/githubService.js"></script>
+    <title>AngularJS - GitHub Searcher</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>AngularJS - GitHub Searcher</h1>
+            <hr>
+            <div class="page" ng-view></div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-xs-12 col-sm-8">
+                <p><strong>@julitogtu</strong> |  <strong>http://julitogtu.com</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
